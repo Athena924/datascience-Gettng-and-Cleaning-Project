@@ -1,0 +1,24 @@
+---
+title: "codebook"
+output: html_document
+#This file describes the variables in `secTidySet.txt`, which is the tidy dataset output.
+
+## Identifiers
+
+- `subjectId`: ID of the volunteer (1–30)
+- `activityId`: Numeric ID of the activity performed
+- `activityType`: Descriptive name of the activity (e.g., WALKING, SITTING)
+
+## Measurements
+
+The rest of the variables are the average values of the original mean and standard deviation features measured from smartphone accelerometers and gyroscopes. Examples include:
+
+- `tBodyAcc-mean()-X`
+- `tBodyAcc-std()-Y`
+- `tGravityAcc-mean()-Z`
+- ...
+
+Each value is the average of that measurement for each subject/activity pair.
+
+
+
